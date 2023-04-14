@@ -1,0 +1,42 @@
+#THIS IS A JOKE
+#This aggressorscript adds some csgo voicelines to cobalt. This is a joke, I repeat, this is a joke.
+
+sub play_sound {
+    $sound_file = $1;
+    @cmd = @('python3','/root/soundboard.py',$sound_file);
+    exec(@cmd);
+}
+
+
+on beacon_initial {
+    $sound_file = "/root/checkin_sound.mp3";
+    play_sound($sound_file);
+}
+
+on beacon_output_alt {
+    $sound_file = "/root/output_sound.mp3";
+    play_sound($sound_file);
+}
+
+on beacon_output_ps {
+    $sound_file = "/root/output_sound.mp3";
+    play_sound($sound_file);
+}
+
+on beacon_output_ls {
+    $sound_file = "/root/output_sound.mp3";
+    play_sound($sound_file);
+}
+
+on beacon_output {
+    $sound_file = "/root/output_sound.mp3";
+    play_sound($sound_file);
+}
+
+
+on event_join {
+    $sound_file = "/root/join_sound.mp3";
+    play_sound($sound_file);
+}
+
+
