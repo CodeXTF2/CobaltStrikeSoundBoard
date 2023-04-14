@@ -3,6 +3,7 @@
 ## THIS IS A JOKE AGGRESSORSCRIPT
 This aggressorscript adds some sound effects on certain cobaltstrike beacon and user events. Current provided sounds are from CSGO.  
 made in response to: https://twitter.com/checkymander/status/1646215850918019089  
+Yes, this is horribly written and uses hardcoded paths. It was made as a joke.
   
 ## Installation
 - move sound files to /root
